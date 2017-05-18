@@ -13,7 +13,7 @@ module.exports = {
   // Binding to 127.0.0.1 is safer in production.
   host: process.env.HOST || '0.0.0.0',
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGODB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+    uri: 'mongodb://gardenio5RMUzuXpcBokQ6crzw9iZ8G1OSSjykvSzWns8UIIwdnpfNq1Hu972v0arSjFP4WC07vMNqsIx2vjbAPKweiuaw==:@gardenio.documents.azure.com:10250/mean?ssl=true&sslverifycertificate=false',
     options: {
       user: '',
       pass: ''
